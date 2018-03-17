@@ -13,7 +13,7 @@
         <!--售出商品-->
         <scene sceneID="dRZ-Lh-vmg">
             <objects>
-                <viewController id="VRa-lf-q0o" sceneMemberID="viewController">
+                <viewController id="VRa-lf-q0o" customClass="SoldViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NOq-o2-Dlc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,10 +26,25 @@
             </objects>
             <point key="canvasLocation" x="-2439" y="-583"/>
         </scene>
+        <!--Submit View Controller-->
+        <scene sceneID="73F-Ug-7uN">
+            <objects>
+                <viewController id="Cwf-lU-N7I" customClass="SubmitViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZl-Zi-meu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0a8-eU-HZq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RBq-Kw-Hwo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3407" y="163"/>
+        </scene>
         <!--店铺-->
         <scene sceneID="ckS-lE-Y3U">
             <objects>
-                <viewController id="Q3Q-De-pUW" sceneMemberID="viewController">
+                <viewController id="Q3Q-De-pUW" customClass="StoreViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G4Z-uD-4Cb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +60,7 @@
         <!--订单-->
         <scene sceneID="gVt-xj-orR">
             <objects>
-                <viewController id="v8e-ah-ucA" sceneMemberID="viewController">
+                <viewController id="v8e-ah-ucA" customClass="RegisterViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sr7-9d-rhy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,7 +188,7 @@
         <!--历史订单-->
         <scene sceneID="1sr-1B-Daf">
             <objects>
-                <viewController id="hWp-gH-YgC" sceneMemberID="viewController">
+                <viewController id="hWp-gH-YgC" customClass="UserListViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Kf-og-1NM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,7 +204,7 @@
         <!--我-->
         <scene sceneID="v9Z-nq-OXw">
             <objects>
-                <viewController id="yxb-4m-ele" sceneMemberID="viewController">
+                <viewController id="yxb-4m-ele" customClass="UserHomeViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqS-mh-GEl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -283,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="1168.8" y="892.80359820089961"/>
         </scene>
-        <!--View Controller-->
+        <!--User Change Password View Controller-->
         <scene sceneID="nCG-bn-enL">
             <objects>
-                <viewController id="rye-bP-8Ou" sceneMemberID="viewController">
+                <viewController id="rye-bP-8Ou" customClass="UserChangePasswordViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6F1-XU-ell">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,7 +363,7 @@
         <!--购物车-->
         <scene sceneID="aaj-xo-WNb">
             <objects>
-                <viewController id="kYo-z5-isz" sceneMemberID="viewController">
+                <viewController id="kYo-z5-isz" customClass="CartViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVu-1v-z09">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -364,7 +379,7 @@
         <!--搜索-->
         <scene sceneID="Wrp-9G-xvS">
             <objects>
-                <viewController id="Gpy-MR-pAT" sceneMemberID="viewController">
+                <viewController id="Gpy-MR-pAT" customClass="SearchViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h5l-I6-xJk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,7 +415,7 @@
         <!--我-->
         <scene sceneID="f5H-uW-YII">
             <objects>
-                <viewController id="AuV-AS-FgL" sceneMemberID="viewController">
+                <viewController id="AuV-AS-FgL" customClass="SellerHomeViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D33-X0-8Eu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -494,10 +509,10 @@
             </objects>
             <point key="canvasLocation" x="-2439" y="893"/>
         </scene>
-        <!--View Controller-->
+        <!--Seller Change Password View Controller-->
         <scene sceneID="ijo-A6-s5a">
             <objects>
-                <viewController id="Lvw-xd-asi" sceneMemberID="viewController">
+                <viewController id="Lvw-xd-asi" customClass="SellerChangePasswordViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aSd-pk-RvO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -556,10 +571,10 @@
             </objects>
             <point key="canvasLocation" x="-1422" y="893"/>
         </scene>
-        <!--View Controller-->
+        <!--Seller Register View Controller-->
         <scene sceneID="dww-zc-Yb1">
             <objects>
-                <viewController id="6Uv-1H-NQK" sceneMemberID="viewController">
+                <viewController id="6Uv-1H-NQK" customClass="SellerRegisterViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zbp-5L-FrF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -672,10 +687,10 @@
             </objects>
             <point key="canvasLocation" x="-623.20000000000005" y="1318.2908545727137"/>
         </scene>
-        <!--View Controller-->
+        <!--User Register View Controller-->
         <scene sceneID="v7i-dv-sOF">
             <objects>
-                <viewController id="NZd-MM-fsy" sceneMemberID="viewController">
+                <viewController id="NZd-MM-fsy" customClass="UserRegisterViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kkd-HG-x4W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -759,10 +774,10 @@
             </objects>
             <point key="canvasLocation" x="247" y="1318"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="kbr-O3-As7">
             <objects>
-                <viewController id="LQU-3I-EmP" sceneMemberID="viewController">
+                <viewController id="LQU-3I-EmP" customClass="RegisterViewController" customModule="SellAndBuy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zIW-tm-MUS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -825,9 +840,9 @@
         <image name="购物车" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qXO-Cl-hhD"/>
+        <segue reference="Rh8-4I-K8w"/>
         <segue reference="30g-Pw-CYR"/>
         <segue reference="HuQ-Xy-6yd"/>
-        <segue reference="HZG-MJ-THa"/>
+        <segue reference="xGN-z0-kWP"/>
     </inferredMetricsTieBreakers>
 </document>

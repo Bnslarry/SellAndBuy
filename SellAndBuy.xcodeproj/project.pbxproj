@@ -12,6 +12,20 @@
 		1D3EB3B9205950D60055ED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3B7205950D60055ED55 /* Main.storyboard */; };
 		1D3EB3BB205950D60055ED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3BA205950D60055ED55 /* Assets.xcassets */; };
 		1D3EB3BE205950D60055ED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3BC205950D60055ED55 /* LaunchScreen.storyboard */; };
+		1D3EB424205D076E0055ED55 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB423205D076E0055ED55 /* RegisterViewController.swift */; };
+		1D3EB426205D07920055ED55 /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB425205D07920055ED55 /* UserHomeViewController.swift */; };
+		1D3EB429205D07EA0055ED55 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB428205D07EA0055ED55 /* CartViewController.swift */; };
+		1D3EB42B205D08120055ED55 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB42A205D08120055ED55 /* UserListViewController.swift */; };
+		1D3EB42D205D08230055ED55 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB42C205D08230055ED55 /* SearchViewController.swift */; };
+		1D3EB42F205D08500055ED55 /* UserChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB42E205D08500055ED55 /* UserChangePasswordViewController.swift */; };
+		1D3EB431205D08810055ED55 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB430205D08810055ED55 /* UserRegisterViewController.swift */; };
+		1D3EB433205D088D0055ED55 /* SellerRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB432205D088D0055ED55 /* SellerRegisterViewController.swift */; };
+		1D3EB435205D08D10055ED55 /* SellerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB434205D08D10055ED55 /* SellerHomeViewController.swift */; };
+		1D3EB437205D08EA0055ED55 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB436205D08EA0055ED55 /* StoreViewController.swift */; };
+		1D3EB439205D09500055ED55 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB438205D09500055ED55 /* SubmitViewController.swift */; };
+		1D3EB43B205D095C0055ED55 /* SoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43A205D095C0055ED55 /* SoldViewController.swift */; };
+		1D3EB43D205D09690055ED55 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43C205D09690055ED55 /* RequestViewController.swift */; };
+		1D3EB43F205D09CA0055ED55 /* SellerChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43E205D09CA0055ED55 /* SellerChangePasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		1D3EB3BA205950D60055ED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3EB3BD205950D60055ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D3EB3BF205950D60055ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3EB423205D076E0055ED55 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1D3EB425205D07920055ED55 /* UserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeViewController.swift; sourceTree = "<group>"; };
+		1D3EB428205D07EA0055ED55 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		1D3EB42A205D08120055ED55 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		1D3EB42C205D08230055ED55 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1D3EB42E205D08500055ED55 /* UserChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChangePasswordViewController.swift; sourceTree = "<group>"; };
+		1D3EB430205D08810055ED55 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		1D3EB432205D088D0055ED55 /* SellerRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerRegisterViewController.swift; sourceTree = "<group>"; };
+		1D3EB434205D08D10055ED55 /* SellerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerHomeViewController.swift; sourceTree = "<group>"; };
+		1D3EB436205D08EA0055ED55 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		1D3EB438205D09500055ED55 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		1D3EB43A205D095C0055ED55 /* SoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldViewController.swift; sourceTree = "<group>"; };
+		1D3EB43C205D09690055ED55 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		1D3EB43E205D09CA0055ED55 /* SellerChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerChangePasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +83,35 @@
 			isa = PBXGroup;
 			children = (
 				1D3EB3B3205950D60055ED55 /* AppDelegate.swift */,
-				1D3EB3B5205950D60055ED55 /* LoginViewController.swift */,
 				1D3EB3B7205950D60055ED55 /* Main.storyboard */,
 				1D3EB3BA205950D60055ED55 /* Assets.xcassets */,
 				1D3EB3BC205950D60055ED55 /* LaunchScreen.storyboard */,
 				1D3EB3BF205950D60055ED55 /* Info.plist */,
+				1D3EB427205D07BA0055ED55 /* Controller */,
 			);
 			path = SellAndBuy;
+			sourceTree = "<group>";
+		};
+		1D3EB427205D07BA0055ED55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D3EB3B5205950D60055ED55 /* LoginViewController.swift */,
+				1D3EB423205D076E0055ED55 /* RegisterViewController.swift */,
+				1D3EB430205D08810055ED55 /* UserRegisterViewController.swift */,
+				1D3EB432205D088D0055ED55 /* SellerRegisterViewController.swift */,
+				1D3EB425205D07920055ED55 /* UserHomeViewController.swift */,
+				1D3EB42E205D08500055ED55 /* UserChangePasswordViewController.swift */,
+				1D3EB428205D07EA0055ED55 /* CartViewController.swift */,
+				1D3EB42A205D08120055ED55 /* UserListViewController.swift */,
+				1D3EB42C205D08230055ED55 /* SearchViewController.swift */,
+				1D3EB434205D08D10055ED55 /* SellerHomeViewController.swift */,
+				1D3EB43E205D09CA0055ED55 /* SellerChangePasswordViewController.swift */,
+				1D3EB436205D08EA0055ED55 /* StoreViewController.swift */,
+				1D3EB438205D09500055ED55 /* SubmitViewController.swift */,
+				1D3EB43A205D095C0055ED55 /* SoldViewController.swift */,
+				1D3EB43C205D09690055ED55 /* RequestViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +186,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3EB42F205D08500055ED55 /* UserChangePasswordViewController.swift in Sources */,
+				1D3EB424205D076E0055ED55 /* RegisterViewController.swift in Sources */,
+				1D3EB43F205D09CA0055ED55 /* SellerChangePasswordViewController.swift in Sources */,
+				1D3EB43D205D09690055ED55 /* RequestViewController.swift in Sources */,
+				1D3EB433205D088D0055ED55 /* SellerRegisterViewController.swift in Sources */,
+				1D3EB42D205D08230055ED55 /* SearchViewController.swift in Sources */,
 				1D3EB3B6205950D60055ED55 /* LoginViewController.swift in Sources */,
+				1D3EB439205D09500055ED55 /* SubmitViewController.swift in Sources */,
+				1D3EB43B205D095C0055ED55 /* SoldViewController.swift in Sources */,
+				1D3EB429205D07EA0055ED55 /* CartViewController.swift in Sources */,
 				1D3EB3B4205950D60055ED55 /* AppDelegate.swift in Sources */,
+				1D3EB431205D08810055ED55 /* UserRegisterViewController.swift in Sources */,
+				1D3EB437205D08EA0055ED55 /* StoreViewController.swift in Sources */,
+				1D3EB435205D08D10055ED55 /* SellerHomeViewController.swift in Sources */,
+				1D3EB426205D07920055ED55 /* UserHomeViewController.swift in Sources */,
+				1D3EB42B205D08120055ED55 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
