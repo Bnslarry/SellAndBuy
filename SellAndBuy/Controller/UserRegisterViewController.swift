@@ -9,7 +9,16 @@
 import UIKit
 
 class UserRegisterViewController: UIViewController {
-
+    @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var addressTextField: UITextView!
+    
+    
+    @IBAction func register(_ sender: UIButton) {
+        //用户注册
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -10,6 +10,16 @@ import UIKit
 
 class SellerRegisterViewController: UIViewController {
 
+    @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var sellerNameTextField: UITextField!
+    @IBOutlet weak var storeNameTextField: UITextField!
+    @IBOutlet weak var storeIntroductionTextField: UITextView!
+    @IBOutlet weak var addressTextField: UITextView!
+    
+    @IBAction func register(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

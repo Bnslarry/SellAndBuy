@@ -8,11 +8,25 @@
 
 import UIKit
 
-class UserListViewController: UIViewController {
+class UserListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var allItems = [UserListItem]()
+    
+    
     override func viewDidLoad() {
+        
+        for _ in 0..<8 {
+            let userListItem = UserListItem()
+            
+            allItems.append(userListItem)
+        }
+        
         super.viewDidLoad()
-
+        
+        tableView.rowHeight = 160
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +36,25 @@ class UserListViewController: UIViewController {
     }
     
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 8
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UserListItem", for: indexPath) as! UserListItem
+        cell.productImage.image = #imageLiteral(resourceName: "礼品_填充")
+        cell.productName.text = "apple"
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        var cell = tableView.cellForRow(at: indexPath) as! UserListItem
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
+        cell.isSelected = false
+    }
+    
     /*
     // MARK: - Navigation
 

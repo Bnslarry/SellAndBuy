@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D3EB3B4205950D60055ED55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB3B3205950D60055ED55 /* AppDelegate.swift */; };
-		1D3EB3B6205950D60055ED55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB3B5205950D60055ED55 /* LoginViewController.swift */; };
 		1D3EB3B9205950D60055ED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3B7205950D60055ED55 /* Main.storyboard */; };
 		1D3EB3BB205950D60055ED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3BA205950D60055ED55 /* Assets.xcassets */; };
 		1D3EB3BE205950D60055ED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EB3BC205950D60055ED55 /* LaunchScreen.storyboard */; };
@@ -26,12 +25,24 @@
 		1D3EB43B205D095C0055ED55 /* SoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43A205D095C0055ED55 /* SoldViewController.swift */; };
 		1D3EB43D205D09690055ED55 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43C205D09690055ED55 /* RequestViewController.swift */; };
 		1D3EB43F205D09CA0055ED55 /* SellerChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EB43E205D09CA0055ED55 /* SellerChangePasswordViewController.swift */; };
+		1D908DAD205E75A2008D5C68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DAC205E75A2008D5C68 /* LoginViewController.swift */; };
+		1D908DB0205F6E81008D5C68 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DAF205F6E81008D5C68 /* ProductItem.swift */; };
+		1D908DB2205FB4B2008D5C68 /* UserListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DB1205FB4B2008D5C68 /* UserListItem.swift */; };
+		1D908DB4205FF1D6008D5C68 /* SearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DB3205FF1D6008D5C68 /* SearchItem.swift */; };
+		1D908DB6205FF1E3008D5C68 /* searchItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D908DB5205FF1E3008D5C68 /* searchItemCell.xib */; };
+		1D908DB9206002D0008D5C68 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DB8206002D0008D5C68 /* user.swift */; };
+		1D908DBB20600FDC008D5C68 /* seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DBA20600FDC008D5C68 /* seller.swift */; };
+		1D908DBD206010C9008D5C68 /* requestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DBC206010C9008D5C68 /* requestItem.swift */; };
+		1D908DBF2060123C008D5C68 /* cartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DBE2060123C008D5C68 /* cartItem.swift */; };
+		1D908DC1206012F0008D5C68 /* userList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC0206012F0008D5C68 /* userList.swift */; };
+		1D908DC320601352008D5C68 /* soldListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC220601352008D5C68 /* soldListItem.swift */; };
+		1D908DC520601493008D5C68 /* storeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC420601493008D5C68 /* storeItem.swift */; };
+		1D908DC72060A558008D5C68 /* searchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC62060A558008D5C68 /* searchItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D3EB3B0205950D60055ED55 /* SellAndBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellAndBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3EB3B3205950D60055ED55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D3EB3B5205950D60055ED55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1D3EB3B8205950D60055ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D3EB3BA205950D60055ED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3EB3BD205950D60055ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +61,19 @@
 		1D3EB43A205D095C0055ED55 /* SoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldViewController.swift; sourceTree = "<group>"; };
 		1D3EB43C205D09690055ED55 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 		1D3EB43E205D09CA0055ED55 /* SellerChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerChangePasswordViewController.swift; sourceTree = "<group>"; };
+		1D908DAC205E75A2008D5C68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1D908DAF205F6E81008D5C68 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		1D908DB1205FB4B2008D5C68 /* UserListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListItem.swift; sourceTree = "<group>"; };
+		1D908DB3205FF1D6008D5C68 /* SearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItem.swift; sourceTree = "<group>"; };
+		1D908DB5205FF1E3008D5C68 /* searchItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchItemCell.xib; sourceTree = "<group>"; };
+		1D908DB8206002D0008D5C68 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		1D908DBA20600FDC008D5C68 /* seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seller.swift; sourceTree = "<group>"; };
+		1D908DBC206010C9008D5C68 /* requestItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestItem.swift; sourceTree = "<group>"; };
+		1D908DBE2060123C008D5C68 /* cartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartItem.swift; sourceTree = "<group>"; };
+		1D908DC0206012F0008D5C68 /* userList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userList.swift; sourceTree = "<group>"; };
+		1D908DC220601352008D5C68 /* soldListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldListItem.swift; sourceTree = "<group>"; };
+		1D908DC420601493008D5C68 /* storeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeItem.swift; sourceTree = "<group>"; };
+		1D908DC62060A558008D5C68 /* searchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +111,7 @@
 				1D3EB3BA205950D60055ED55 /* Assets.xcassets */,
 				1D3EB3BC205950D60055ED55 /* LaunchScreen.storyboard */,
 				1D3EB3BF205950D60055ED55 /* Info.plist */,
+				1D908DAE205F6E3F008D5C68 /* View */,
 				1D3EB427205D07BA0055ED55 /* Controller */,
 			);
 			path = SellAndBuy;
@@ -95,7 +120,7 @@
 		1D3EB427205D07BA0055ED55 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1D3EB3B5205950D60055ED55 /* LoginViewController.swift */,
+				1D908DAC205E75A2008D5C68 /* LoginViewController.swift */,
 				1D3EB423205D076E0055ED55 /* RegisterViewController.swift */,
 				1D3EB430205D08810055ED55 /* UserRegisterViewController.swift */,
 				1D3EB432205D088D0055ED55 /* SellerRegisterViewController.swift */,
@@ -110,8 +135,35 @@
 				1D3EB438205D09500055ED55 /* SubmitViewController.swift */,
 				1D3EB43A205D095C0055ED55 /* SoldViewController.swift */,
 				1D3EB43C205D09690055ED55 /* RequestViewController.swift */,
+				1D908DB7206002B6008D5C68 /* Model */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D908DAE205F6E3F008D5C68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D908DAF205F6E81008D5C68 /* ProductItem.swift */,
+				1D908DB1205FB4B2008D5C68 /* UserListItem.swift */,
+				1D908DB3205FF1D6008D5C68 /* SearchItem.swift */,
+				1D908DB5205FF1E3008D5C68 /* searchItemCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D908DB7206002B6008D5C68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D908DB8206002D0008D5C68 /* user.swift */,
+				1D908DBE2060123C008D5C68 /* cartItem.swift */,
+				1D908DC0206012F0008D5C68 /* userList.swift */,
+				1D908DC62060A558008D5C68 /* searchItem.swift */,
+				1D908DBA20600FDC008D5C68 /* seller.swift */,
+				1D908DC420601493008D5C68 /* storeItem.swift */,
+				1D908DC220601352008D5C68 /* soldListItem.swift */,
+				1D908DBC206010C9008D5C68 /* requestItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3EB3BE205950D60055ED55 /* LaunchScreen.storyboard in Resources */,
+				1D908DB6205FF1E3008D5C68 /* searchItemCell.xib in Resources */,
 				1D3EB3BB205950D60055ED55 /* Assets.xcassets in Resources */,
 				1D3EB3B9205950D60055ED55 /* Main.storyboard in Resources */,
 			);
@@ -186,22 +239,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D908DB9206002D0008D5C68 /* user.swift in Sources */,
 				1D3EB42F205D08500055ED55 /* UserChangePasswordViewController.swift in Sources */,
 				1D3EB424205D076E0055ED55 /* RegisterViewController.swift in Sources */,
+				1D908DB0205F6E81008D5C68 /* ProductItem.swift in Sources */,
+				1D908DBF2060123C008D5C68 /* cartItem.swift in Sources */,
+				1D908DC520601493008D5C68 /* storeItem.swift in Sources */,
 				1D3EB43F205D09CA0055ED55 /* SellerChangePasswordViewController.swift in Sources */,
 				1D3EB43D205D09690055ED55 /* RequestViewController.swift in Sources */,
 				1D3EB433205D088D0055ED55 /* SellerRegisterViewController.swift in Sources */,
 				1D3EB42D205D08230055ED55 /* SearchViewController.swift in Sources */,
-				1D3EB3B6205950D60055ED55 /* LoginViewController.swift in Sources */,
+				1D908DB4205FF1D6008D5C68 /* SearchItem.swift in Sources */,
 				1D3EB439205D09500055ED55 /* SubmitViewController.swift in Sources */,
 				1D3EB43B205D095C0055ED55 /* SoldViewController.swift in Sources */,
+				1D908DC1206012F0008D5C68 /* userList.swift in Sources */,
 				1D3EB429205D07EA0055ED55 /* CartViewController.swift in Sources */,
 				1D3EB3B4205950D60055ED55 /* AppDelegate.swift in Sources */,
+				1D908DC72060A558008D5C68 /* searchItem.swift in Sources */,
+				1D908DC320601352008D5C68 /* soldListItem.swift in Sources */,
+				1D908DBD206010C9008D5C68 /* requestItem.swift in Sources */,
 				1D3EB431205D08810055ED55 /* UserRegisterViewController.swift in Sources */,
 				1D3EB437205D08EA0055ED55 /* StoreViewController.swift in Sources */,
+				1D908DAD205E75A2008D5C68 /* LoginViewController.swift in Sources */,
+				1D908DBB20600FDC008D5C68 /* seller.swift in Sources */,
 				1D3EB435205D08D10055ED55 /* SellerHomeViewController.swift in Sources */,
 				1D3EB426205D07920055ED55 /* UserHomeViewController.swift in Sources */,
 				1D3EB42B205D08120055ED55 /* UserListViewController.swift in Sources */,
+				1D908DB2205FB4B2008D5C68 /* UserListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27T8PA627G;
 				INFOPLIST_FILE = SellAndBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bns.SellAndBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27T8PA627G;
 				INFOPLIST_FILE = SellAndBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bns.SellAndBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";

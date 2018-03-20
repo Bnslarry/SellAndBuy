@@ -10,6 +10,14 @@ import UIKit
 
 class UserChangePasswordViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var passwordAgain: UITextField!
+    
+    @IBAction func change(_ sender: UIButton) {
+    }
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
