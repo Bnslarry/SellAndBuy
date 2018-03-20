@@ -1,0 +1,6 @@
+framework module Pods_SellAndBuy {
+  umbrella header "Pods-SellAndBuy-umbrella.h"
+
+  export *
+  module * { export * }
+}

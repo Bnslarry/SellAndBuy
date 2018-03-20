@@ -38,7 +38,21 @@
 		1D908DC320601352008D5C68 /* soldListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC220601352008D5C68 /* soldListItem.swift */; };
 		1D908DC520601493008D5C68 /* storeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC420601493008D5C68 /* storeItem.swift */; };
 		1D908DC72060A558008D5C68 /* searchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D908DC62060A558008D5C68 /* searchItem.swift */; };
+		904EF963B08799C9174D392D /* Pods_SellAndBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9832ACFD32EC3952C28B3766 /* Pods_SellAndBuy.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D908DCF20612238008D5C68 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D3EB3B0205950D60055ED55 /* SellAndBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellAndBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +88,9 @@
 		1D908DC220601352008D5C68 /* soldListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldListItem.swift; sourceTree = "<group>"; };
 		1D908DC420601493008D5C68 /* storeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeItem.swift; sourceTree = "<group>"; };
 		1D908DC62060A558008D5C68 /* searchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchItem.swift; sourceTree = "<group>"; };
+		5CCA84C407B31B0418467B78 /* Pods-SellAndBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAndBuy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SellAndBuy/Pods-SellAndBuy.debug.xcconfig"; sourceTree = "<group>"; };
+		9832ACFD32EC3952C28B3766 /* Pods_SellAndBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAndBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED13674497A016C5E078B75 /* Pods-SellAndBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAndBuy.release.xcconfig"; path = "Pods/Target Support Files/Pods-SellAndBuy/Pods-SellAndBuy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,17 +98,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904EF963B08799C9174D392D /* Pods_SellAndBuy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7CCDBED76D7B8AF39D7709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA84C407B31B0418467B78 /* Pods-SellAndBuy.debug.xcconfig */,
+				AED13674497A016C5E078B75 /* Pods-SellAndBuy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1D3EB3A7205950D60055ED55 = {
 			isa = PBXGroup;
 			children = (
 				1D3EB3B2205950D60055ED55 /* SellAndBuy */,
 				1D3EB3B1205950D60055ED55 /* Products */,
+				0C7CCDBED76D7B8AF39D7709 /* Pods */,
+				58046353A4304FED77E2596D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +140,7 @@
 				1D3EB3BA205950D60055ED55 /* Assets.xcassets */,
 				1D3EB3BC205950D60055ED55 /* LaunchScreen.storyboard */,
 				1D3EB3BF205950D60055ED55 /* Info.plist */,
+				1D908DB7206002B6008D5C68 /* Model */,
 				1D908DAE205F6E3F008D5C68 /* View */,
 				1D3EB427205D07BA0055ED55 /* Controller */,
 			);
@@ -135,7 +165,6 @@
 				1D3EB438205D09500055ED55 /* SubmitViewController.swift */,
 				1D3EB43A205D095C0055ED55 /* SoldViewController.swift */,
 				1D3EB43C205D09690055ED55 /* RequestViewController.swift */,
-				1D908DB7206002B6008D5C68 /* Model */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +195,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		58046353A4304FED77E2596D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9832ACFD32EC3952C28B3766 /* Pods_SellAndBuy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D3EB3C2205950D60055ED55 /* Build configuration list for PBXNativeTarget "SellAndBuy" */;
 			buildPhases = (
+				05AFFF935CC7F6867F94837C /* [CP] Check Pods Manifest.lock */,
 				1D3EB3AC205950D60055ED55 /* Sources */,
 				1D3EB3AD205950D60055ED55 /* Frameworks */,
 				1D3EB3AE205950D60055ED55 /* Resources */,
+				4B240B62396DDF0324B3D4FA /* [CP] Embed Pods Frameworks */,
+				11E601666D9187A8225CE7E0 /* [CP] Copy Pods Resources */,
+				1D908DCF20612238008D5C68 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +274,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AFFF935CC7F6867F94837C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SellAndBuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11E601666D9187A8225CE7E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SellAndBuy/Pods-SellAndBuy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B240B62396DDF0324B3D4FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SellAndBuy/Pods-SellAndBuy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SellAndBuy/Pods-SellAndBuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D3EB3AC205950D60055ED55 /* Sources */ = {
@@ -400,6 +495,7 @@
 		};
 		1D3EB3C3205950D60055ED55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCA84C407B31B0418467B78 /* Pods-SellAndBuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +512,7 @@
 		};
 		1D3EB3C4205950D60055ED55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED13674497A016C5E078B75 /* Pods-SellAndBuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
